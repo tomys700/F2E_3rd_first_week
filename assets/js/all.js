@@ -156,7 +156,7 @@ var city = [{
   "Version": "21.08.1"
 }];
 $(function () {
-  if (location.pathname == '/' || location.pathname == '/index.html') {
+  if (location.pathname == '/F2E_3rd_first_week/' || location.pathname == '/F2E_3rd_first_week/index.html') {
     //首頁
     console.log('首頁');
     var randomnumber = Math.floor(Math.random() * 100 + 1);
@@ -170,7 +170,7 @@ $(function () {
     funAxaj(indexActUrl, ".featuredContent");
     funAxaj(idexSpotUrl, ".ScenicSpotContent");
     funAxaj(indexRestaurantUrl, ".recommendedContent");
-  } else if (location.pathname == '/featured.html') {
+  } else if (location.pathname == '/F2E_3rd_first_week/featured.html') {
     //精選活動
     $("#navbarSupportedContent .nav-link:eq(0)").addClass('active');
     var randomnumber = Math.floor(Math.random() * 100 + 1);
@@ -195,7 +195,7 @@ $(function () {
       console.log(value1);
       $("#city").get(0).selectedIndex = 0;
     });
-  } else if (location.pathname == '/attractions.html') {
+  } else if (location.pathname == '/F2E_3rd_first_week/attractions.html') {
     //全台景點
     $("#navbarSupportedContent .nav-link:eq(1)").addClass('active');
     var randomnumber = Math.floor(Math.random() * 100 + 1);
@@ -275,7 +275,7 @@ $(function () {
       $("#city").get(0).selectedIndex = 0;
       ;
     });
-  } else if (location.pathname == '/foods.html') {
+  } else if (location.pathname == '/F2E_3rd_first_week/foods.html') {
     //全台景點
     $("#navbarSupportedContent .nav-link:eq(2)").addClass('active');
     var randomnumber = Math.floor(Math.random() * 100 + 1);
@@ -300,7 +300,7 @@ $(function () {
       $("#city").get(0).selectedIndex = 0;
       ;
     });
-  } else if (location.pathname == '/hotel.html') {
+  } else if (location.pathname == '/F2E_3rd_first_week/hotel.html') {
     //全台景點
     $("#navbarSupportedContent .nav-link:eq(3)").addClass('active');
     var randomnumber = Math.floor(Math.random() * 100 + 1);
@@ -325,7 +325,7 @@ $(function () {
       $("#city").get(0).selectedIndex = 0;
       ;
     });
-  } else if (location.pathname == '/detailed.html') {
+  } else if (location.pathname == '/F2E_3rd_first_week/detailed.html') {
     //內文
     funSwiper(".detailedSwiper");
     console.log(location.href);
